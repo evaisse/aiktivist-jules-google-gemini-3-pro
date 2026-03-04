@@ -6,3 +6,9 @@ node_modules/
 .env
 .envrc
 dist/
+
+logs/*.jsonl
+server.log
+db/*.sqlite
+db/*.sqlite-wal
+db/*.sqlite-shm

@@ -1,0 +1,23 @@
+Server listening on http://localhost:3000
+GET /register
+GET /style.css
+GET /app.js
+GET /api/me
+POST /api/register
+POST /api/login
+GET /api/me
+GET /api/conversations
+POST /api/conversations
+GET /api/conversations
+GET /api/conversations/2470600b-baa6-4b89-8c11-36a465979782
+GET /api/conversations/2470600b-baa6-4b89-8c11-36a465979782/events
+POST /api/conversations/2470600b-baa6-4b89-8c11-36a465979782/messages
+AI stream processing error: 43 |       }),
+44 |     });
+45 |
+46 |     if (!response.ok) {
+47 |       const errorText = await response.text();
+48 |       throw new Error(`OpenRouter API Error: ${response.status} ${errorText}`);
+                 ^
+error: OpenRouter API Error: 401 {"error":{"message":"Missing Authentication header","code":401}}
+      at processConversationAI (/app/src/ai.ts:48:13)
